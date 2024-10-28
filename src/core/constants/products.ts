@@ -1,0 +1,185 @@
+import { Product } from "../../../../core/src/product/produto";
+import { Addons } from "../product/addons";
+
+export const products: Product[] = [
+  {
+    productId: "1",
+    name: "Açaí Clássico",
+    description: "Açaí puro com granola.",
+    flavor: "Doce",
+    price: 12.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "granola", price: 2.0 },
+      // { name: "mel", price: 1.5 },
+      // { name: "banana", price: 1.0 },
+    ],
+  },
+  {
+    productId: "2",
+    name: "Açaí Tropical",
+    description: "Açaí com frutas tropicais.",
+    flavor: "Frutado",
+    price: 15.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "coco ralado", price: 2.0 },
+      // { name: "manga", price: 1.5 },
+      // { name: "morango", price: 1.0 },
+    ],
+  },
+  {
+    productId: "3",
+    name: "Açaí Energético",
+    description: "Açaí com proteína e mel.",
+    flavor: "Nutritivo",
+    price: 18.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "proteína", price: 3.0 },
+      // { name: "aveia", price: 1.5 },
+      // { name: "pasta de amendoim", price: 2.5 },
+    ],
+  },
+  {
+    productId: "4",
+    name: "Açaí Vegano",
+    description: "Açaí com toppings veganos.",
+    flavor: "Natural",
+    price: 14.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "semente de chia", price: 2.0 },
+      // { name: "frutas secas", price: 2.5 },
+    ],
+  },
+  {
+    productId: "5",
+    name: "Açaí com Chocolate",
+    description: "Açaí com calda de chocolate.",
+    flavor: "Chocolate",
+    price: 16.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "chocolate granulado", price: 1.5 },
+      // { name: "nutella", price: 2.0 },
+    ],
+  },
+  {
+    productId: "6",
+    name: "Açaí Fit",
+    description: "Açaí com mix de sementes.",
+    flavor: "Saudável",
+    price: 17.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "linhaça", price: 1.5 },
+      // { name: "quinoa", price: 2.0 },
+    ],
+  },
+  {
+    productId: "7",
+    name: "Açaí com Iogurte",
+    description: "Açaí com iogurte grego.",
+    flavor: "Cremoso",
+    price: 19.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "iogurte", price: 2.0 },
+      // { name: "frutas frescas", price: 2.5 },
+    ],
+  },
+  {
+    productId: "8",
+    name: "Açaí com Amendoim",
+    description: "Açaí com pasta de amendoim.",
+    flavor: "Salgado",
+    price: 15.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "pasta de amendoim", price: 2.5 },
+      // { name: "banana", price: 1.0 },
+    ],
+  },
+  {
+    productId: "9",
+    name: "Açaí Deluxe",
+    description: "Açaí com várias camadas de toppings.",
+    flavor: "Luxuoso",
+    price: 22.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "mix de frutas", price: 3.0 },
+      // { name: "granola", price: 2.0 },
+      // { name: "sorvete", price: 2.5 },
+    ],
+  },
+  {
+    productId: "10",
+    name: "Açaí de Café",
+    description: "Açaí com café expresso.",
+    flavor: "Café",
+    price: 18.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "café", price: 1.5 },
+      // { name: "chocolate", price: 2.0 },
+    ],
+  },
+  {
+    productId: "11",
+    name: "Açaí do Mar",
+    description: "Açaí com algas marinhas.",
+    flavor: "Exótico",
+    price: 20.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "algas", price: 2.5 },
+      // { name: "frutas do mar", price: 3.0 },
+    ],
+  },
+  {
+    productId: "12",
+    name: "Açaí com Leite Condensado",
+    description: "Açaí com leite condensado.",
+    flavor: "Doce",
+    price: 16.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "leite condensado", price: 2.0 },
+      // { name: "granola", price: 2.0 },
+    ],
+  },
+  {
+    productId: "13",
+    name: "Açaí com Frutas Vermelhas",
+    description: "Açaí com mix de frutas vermelhas.",
+    flavor: "Azul",
+    price: 18.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "framboesa", price: 2.5 },
+      // { name: "mirtilo", price: 2.5 },
+    ],
+  },
+  {
+    productId: "14",
+    name: "Açaí do Chef",
+    description: "Açaí especial do chef com surpresas.",
+    flavor: "Variado",
+    price: 25.0,
+    image: "https://images.unsplash.com/photo-1477691251658-ee086a3adcac?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    addons: [
+      // { name: "surpresa", price: 3.0 },
+      // { name: "mix de nuts", price: 2.0 },
+    ],
+  },
+];
+
+export const addOns:Addons[] = [
+   { name: "surpresa-1", price: 1.0 },
+   { name: "surpresa-2", price: 2.0 },
+   { name: "surpresa-3", price: 3.0 },
+   { name: "surpresa-4", price: 4.0 },
+   { name: "surpresa-5", price: 5.0 },
+]
